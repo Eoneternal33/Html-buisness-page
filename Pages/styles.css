@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+p {
+    color: crimson;
+}
+/*picture styles start*/
+.image {
+    text-align: center;
+}
+/*picture styles end*/
+/*navbar start*/
+nav{
+    text-align: center;
+}
+li{
+    display: inline;
+    margin-left: 40px;
+    text-align:justify;
+}
+/*navbar end*/
