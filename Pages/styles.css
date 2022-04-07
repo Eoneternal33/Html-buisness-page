@@ -12,8 +12,11 @@ p {
 /*navbar start*/
 nav{
     text-align: center;
+    padding: 10px;
+    background-color: aliceblue;
+    
 }
-li{
+.navbar {
     display: inline;
     margin-left: 40px;
     text-align:justify;
