@@ -50,3 +50,13 @@ nav{
     text-align:justify;
 }
 /*navbar end*/
+/*footer start*/
+footer {
+    background-color: aliceblue;
+    text-align: justify;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+/*footer end*/
+
