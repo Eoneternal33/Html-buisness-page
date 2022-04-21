@@ -37,6 +37,20 @@ clear: both;
     margin: 10px;
 }
 /*picture styles end*/
+/*Portfolio start */
+.phead {
+    text-align: center;
+}
+.psec {
+    background-color: grey;
+    text-align: center;
+}
+.pul {
+    display:inline;
+    text-align: center;
+    margin-left: 40px;
+}
+/*portfolio end*/
 /*navbar start*/
 nav{
     text-align: center;
@@ -53,10 +67,11 @@ nav{
 /*footer start*/
 footer {
     background-color: aliceblue;
-    text-align: justify;
     padding: 30px;
     margin-top: 50px;
+    position:inherit;
+    bottom:0;
+    width: 100%;
 }
-
 /*footer end*/
 
