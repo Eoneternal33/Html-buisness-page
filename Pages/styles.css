@@ -48,17 +48,19 @@ clear: both;
 .pul {
     display:inline;
     text-align: center;
-    margin-left: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 /*portfolio end*/
 /*navbar start*/
-nav{
+.navi{
     text-align: center;
     padding: 10px;
     background-color: aliceblue;
+    padding-top: 20px;
     
 }
-.navbar {
+.navibar {
     display: inline;
     margin-left: 40px;
     text-align:justify;
