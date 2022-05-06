@@ -67,6 +67,7 @@ section::after {
 #potable {
     width: 95%;
     margin: 50px;
+   
 }
 
 td {
@@ -74,6 +75,7 @@ td {
     text-align: center;
     background-color: rgba(164, 160, 160, 0.525);
     padding: 15px;
+    margin: 15px;
 }
 .thead {
     border: 1px solid black;
