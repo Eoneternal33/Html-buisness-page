@@ -1,23 +1,24 @@
 body {
   background-color: white;
-
   min-height: 100vh;
 }
+.title {
+  font-size: 3em;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  margin-left: 1em;
 
-.pport {
-  color: whitesmoke;
 }
-
 #center {
   text-align: center;
 }
-
+/* Home page start */
 section::after {
   content: "";
   display: table;
   clear: both;
 }
-
 .owner {
   float: left;
   margin-left: 100px;
@@ -27,7 +28,6 @@ section::after {
   height: 200px;
   border: 2px solid black;
 }
-
 .about {
   float: right;
   margin-right: 100px;
@@ -37,6 +37,7 @@ section::after {
   height: 200px;
   border: 2px solid black;
 }
+/* Home page end */
 
 /*picture styles start*/
 .image {
@@ -47,6 +48,9 @@ section::after {
 /*picture styles end*/
 
 /*Portfolio start */
+.pport {
+  color: whitesmoke;
+}
 .phead {
   text-align: center;
 }
@@ -89,8 +93,8 @@ td {
 /*navbar start*/
 .navi {
   text-align: center;
-  padding: 10px;
-  background-color: aliceblue;
+  padding: 20px;
+  background-color: rgb(82, 167, 241);
   padding-top: 20px;
 }
 
@@ -105,13 +109,13 @@ td {
 /*footer start*/
 footer {
   background-color: rgb(30, 30, 31);
-  color:aliceblue;
+  color: aliceblue;
   padding: 30px;
   margin-top: 50px;
   position: sticky;
   top: 100%;
   text-align: center;
-  left:0;
+  left: 0;
 }
 
 /*footer end*/
@@ -119,7 +123,7 @@ footer {
 /*Contact page start*/
 .ccenter {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 25%;
   border: 2px solid black;
   height: 600px;
@@ -135,7 +139,7 @@ footer {
   margin-left: 39%;
   text-align: center;
   margin-top: 90px;
-  position:absolute;
+  position: absolute;
   z-index: 9;
 }
 /* Contact End */
@@ -147,7 +151,7 @@ footer {
 }
 /* Services End*/
 /* Survey Start */
- .survey {
-   margin-bottom: 2em;
- }
+.survey {
+  margin-bottom: 2em;
+}
 /* Survey End */
