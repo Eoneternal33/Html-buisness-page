@@ -43,6 +43,7 @@ section::after {
 }
 
 /*picture styles end*/
+
 /*Portfolio start */
 .phead {
   text-align: center;
@@ -137,3 +138,10 @@ footer {
     
 }
 /* Contact End */
+
+/* Services Start*/
+.sinput {
+  width: 60em;
+  height: 10em;
+}
+/* Services End*/
