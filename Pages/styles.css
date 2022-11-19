@@ -9,7 +9,7 @@ body {
 #center {
     text-align: center;
 }
-
+/* Index page Start */
 section::after {
     content: "";
     display: table;
@@ -35,6 +35,7 @@ section::after {
     height: 200px;
     border: 2px solid black;
 }
+/*Index end*/
 
 /*picture styles start*/
 .image {
