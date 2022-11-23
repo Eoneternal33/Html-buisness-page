@@ -19,7 +19,9 @@
   }
   
   .portinfo {
-    text-align: right;
+    text-align: start;
+    padding: 20px;
+    
   }
   #potable {
     width: 95%;
