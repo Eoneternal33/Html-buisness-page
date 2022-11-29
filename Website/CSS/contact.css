@@ -1,22 +1,15 @@
-/*Contact page start*/
-/* .ccenter {
-    text-align: center;
-    margin-top: 50px;
-    margin-left: 25%;
-    border: 2px solid black;
-    height: 600px;
-    width: 1000px;
-    background-image: url("https://cdn.hipwallpaper.com/i/48/82/ZMJLWk.jpg");
-    background-size: 100% 100%;
-    position: absolute;
-    z-index: 8;
-    opacity: 0.6;
-  } */
-  /* .bccenter {
-    top: 250px;
-    text-align: center;
-    margin-top: 90px;
-    position: absolute;
-    z-index: 9;
-  } */
-  /* Contact End */
+h1 {
+  margin-top: 3em;
+  text-align:center
+ 
+}
+.cont-container {
+  border: 1em;
+  border-style: double;
+  border-color: black;
+  text-align: center;
+  width: 55%;
+  align-self: center;
+  margin-left: 23%;
+  margin-top: 5em;
+}
