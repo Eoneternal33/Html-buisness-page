@@ -1,5 +1,5 @@
 h1 {
-  margin-top: 3em;
+  padding-top: 1em;
   text-align:center
  
 }
@@ -11,5 +11,8 @@ h1 {
   width: 55%;
   align-self: center;
   margin-left: 23%;
-  margin-top: 5em;
+  margin-top: 2em;
+  background-color:azure;
+  background-blend-mode: color;
+  padding:2em;
 }
