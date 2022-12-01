@@ -18,8 +18,13 @@ section::after {
 /* Home page end */
 /*picture styles start*/
 .owner {
-  border-radius: 50%;
+  border-radius: 100%;
+  height:400px;
+  width:300px;
+
 }
+
+
 
 .image {
   text-align: center;
