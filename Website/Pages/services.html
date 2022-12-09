@@ -56,31 +56,44 @@
 </header>
 
 <body>
-    <div class="sbackground"></div>
-    <div class="sinput">
-        <h1>Services</h1>
-        <p><b><u>Let us Know what you need</u></b></p>
-        <input type="checkbox"> Do you require help?</p>
-        <input type="checkbox"> Are you willing to pay money?</p>
-        <input type="checkbox"> In US dollars?</p>
-        <input type="checkbox"><b> Due within a week?</b></p>
-        <h3>Requests</h3>
-        <textarea rows="5" cols="60"
-            placeholder="What services are you requesting?"> What services are you requesting?</textarea> </br>
-        <h3><b>Who should we Email?</b></h3>
-        <input type="email">
-        <input type="submit" value="Submit">
+    <div>
+        <h1>What can we do for you?</h1>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                Do you require help?
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                In US Currency?
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Are you willing to pay money
+            </label>
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                In US currency?
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+            <label class="form-check-label" for="flexCheckChecked">
+                Willing to wait?
+            </label>
+        </div>
     </div>
-
-
-
-    <footer>
-        <p>trademark G&E industries</p>
-        <p>founded 2022</p>
-    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
+<footer class="fixed-bottom">
+    <p>trademark G&E industries</p>
+    <p>founded 2022</p>
+</footer>
 
 </html>
