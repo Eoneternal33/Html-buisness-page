@@ -56,8 +56,8 @@
 </header>
 
 <body>
-    <div>
-        <h1>What can we do for you?</h1>
+    <h1>What can we do for you?</h1>
+    <section class="sinput">
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
             <label class="form-check-label" for="flexCheckDefault">
@@ -75,10 +75,13 @@
             <label class="form-check-label" for="flexCheckChecked">
                 Are you willing to pay money
             </label>
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
             <label class="form-check-label" for="flexCheckDefault">
                 In US currency?
             </label>
+
         </div>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
@@ -86,7 +89,13 @@
                 Willing to wait?
             </label>
         </div>
-    </div>
+        <div class="mb-3">
+            <textarea class="form-control" id="FormControlTextarea1" rows="3"
+                placeholder="Tell us a bit more in detail"></textarea>
+        </div>
+        <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
