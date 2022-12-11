@@ -1,15 +1,20 @@
 /* Services Start*/
-  .sinput {
-    text-align: center;
-    border: 1px solid black;
-    padding: 15px;
-    width: 50%;
-    margin-left: 24em;
-    margin-top: 5em;
-  }
-  .checkbox {
-    width:50%;
-    text-align: center;
+.sinput {
+  text-align: center;
+  border: 1px solid black;
+  padding: 15px;
+  width: 50%;
+  margin-left: 24em;
+  margin-top: 5em;
+  grid-template-columns: 1fr 2fr 1fr;
 
-  }
-  /* Services End*/
+}
+
+.dcheck {
+  
+  width: 50%;
+  height: 40vh;
+  text-align: center;
+}
+
+/* Services End*/
