@@ -3,18 +3,26 @@
   text-align: center;
   border: 1px solid black;
   padding: 15px;
-  width: 50%;
-  margin-left: 24em;
+  width: 60%;
+  height:55vh;
+  margin-left: 20em;
   margin-top: 5em;
-  grid-template-columns: 1fr 2fr 1fr;
 
 }
 
-.dcheck {
-  
-  width: 50%;
-  height: 40vh;
+.tinput{
+  display:inline-flex;
   text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+  width: 40vw;
+}
+label {
+  display: inline-block;
+  text-align: left;
+  width: 14vw;
+  height:5vh;
+  
 }
 
 /* Services End*/
